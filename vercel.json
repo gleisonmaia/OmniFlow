@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api-soft-flow/:path*",
+      "destination": "http://177.43.232.2:25083/api-soft-flow/:path*"
+    },
+    {
+      "source": "/((?!api-soft-flow/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
